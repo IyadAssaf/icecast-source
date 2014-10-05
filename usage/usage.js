@@ -6,15 +6,13 @@ var source = require('../index')({
 	mount: '/superCoolStuff',
 	type: 'audio/mpeg',
 	name: 'helllllo'
-
-
 }, function (err) {
 
 	if(err) {
 		console.log(err);
 		return;
 	}
-	
+
 	// Time to write some data
 	while(true) {
 		source.write('some audio data');
