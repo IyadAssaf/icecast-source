@@ -1,14 +1,21 @@
 icecast-source
 ====
 
-Simple utility to stream data to Icecast servers as an source client.
+Simple abstraction to connect and stream data to Icecast servers as an source client.
+
+### Installation
+
+`npm install icecast-source`
+
+### Usage
+
+Pass your port, password and mountpojnt to the module, recieve a callback when authorized.
 
 ```javascript
 var source = require('icecast-source')({
 	port: 9000,
 	pass: 'yourPass',
-	mount: '/superCoolStuff',
-
+	mount: '/superCoolStuff'
 }, function (err) {
 
 	// if err, auth has failed
