@@ -1,0 +1,14 @@
+{
+  "name": "icecast-source",
+  "version": "0.1.0",
+  "description": "Connect and stream to Icecast servers",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "q": "^1.0.1"
+  }
+}
