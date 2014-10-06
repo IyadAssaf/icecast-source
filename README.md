@@ -35,6 +35,8 @@ You can set the following options in the config:
 - port (required)
 - pass (required)
 - mount (required)
+- host (defaults to 'localhost')
+- type (defaults to 'audio/mpeg')
 - name
 - description
 - url
